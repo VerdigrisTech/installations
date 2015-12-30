@@ -1,0 +1,55 @@
+{
+    "name": "main switchboard",
+    "children": [
+        {"name": "L22"},
+
+        {"name": "H4"},
+
+        {"name": "AC1"},
+
+        {"name": "AC3"},
+
+        {"name": "XFMR T2: L4; L5; L6; L14"},
+
+        {"name": "AC4"},
+
+        {"name": "H5"},
+
+        {"name": "H3"},
+
+        {"name": "Vitronics Oven"},
+
+        {"name": "AC2"},
+
+        {"name": "H1"},
+
+        {"name": "Panel L13",
+         "children": [
+         {"name": "Panel L13 Phase A"}, 
+         {"name": "Panel L13 Phase B"}, 
+         {"name": "Panel L13 Phase C"}
+         ]
+        },
+
+        {"name": "Dist Panel DCP", 
+         "children": [
+            {"name": "DCP Main",
+                "children": [
+                {"name": "DCP Main Phase A"},
+                {"name": "DCP Main Phase B"},
+                {"name": "DCP Main Phase C"}
+                ]
+            },
+            {"name": "Panel L21",
+                "children": [
+                {"name": "Panel L21 Phase A"},
+                {"name": "Panel L21 Phase B"},
+                {"name": "Panel L21 Phase C"}
+                ]
+            }
+         ]
+        }
+
+
+    ]
+}
